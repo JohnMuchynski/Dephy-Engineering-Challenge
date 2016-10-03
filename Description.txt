@@ -1,0 +1,9 @@
+Description of Thought Process:
+I figured that when the heel strike occurs that the toes of the foot are still in the air but start to descend rapidly towards the floor after the heel phase. 
+Thus, by looking at the z values of the gyro it can be determined when the heel has just struck. Although it would have been better to incorporate some of the other sensor data
+into the detector, I sadly did not have the time. I believe that just looking at the gyro z values would mean that the gait detector would have trouble on inclined surfaces or 
+on people with tight achilles tendons. Also note that there is no exception handling, so  if an invalid filename is entered the program will crash.
+
+References
+http://www.slideshare.net/shimaa2022/gait-analysis-15743497
+https://www.youtube.com/watch?v=5j4YRHf6Iyo
